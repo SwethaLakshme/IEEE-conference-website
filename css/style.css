@@ -1333,6 +1333,12 @@ img.pull-right {
 .schedule-listing-item{
   min-height: 300px;
 }
+#icon{
+  padding-right: 10%;
+}
+#description{
+  padding-bottom: 50%;
+}
 /* #eventcolumn{
   min-height:500px;
 } */
@@ -1473,6 +1479,7 @@ img.pull-right {
             opacity: 1; }
 .description{
   font-size: larger;
+  text-align: center;
 }
 .schedule-tabs-item .schedule-listing-item {
   position: relative; }
