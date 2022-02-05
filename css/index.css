@@ -137,8 +137,11 @@ h1,h2,h3,h4,h5,h6{
     padding: 10%;
     position: relative;
   }
+  #about-content-id{
+    margin-top: 50%;
+  }
   .about-content{
-    margin-top: 65%;
+    margin-top: 10%;
   }
   .content{
     margin-left: 5%;
@@ -146,17 +149,9 @@ h1,h2,h3,h4,h5,h6{
   #about-department-content{
     text-align: right;
   }
-  .aboutinstimage{
-    width: 350px;
-    height: 320px;
-  }
-  .aboutdeptimage{
-    width:350px;
-    height: 250px;
-  }
-  .ICCSTimage{
-    width:350px;
-    height: 200px;
+  .aboutinstimage,.aboutdeptimage,.ICCSTimage{
+    width: 100%;
+    height: inherit;
   }
   #ICCSTcontent{
     padding-top:1% ;
@@ -199,13 +194,13 @@ h1,h2,h3,h4,h5,h6{
   }
   #international-committee{
     background-color: rgb(230, 230, 230);
-    height: 650px;
+    height: inherit;
     
   }
   #national-committee{
     background-color: rgb(20, 20, 20);
     transform: rotateY(180deg);
-    height: 900px;
+    height: inherit;
     color:rgb(190, 190, 190);
   }
   
@@ -475,45 +470,100 @@ footer{
   #about-department-content{
     text-align: center;
   }
-}
-
-@media screen and (max-width:768px) {
-  .plagheading{
-        visibility: hidden;
-    }
-    .plagheadingforphone{
-        text-align: center;
-    }
-    .subguide,.plag{
-        margin:0%
-    }
-    .subguidepara,.plagpara{
-        text-align: center;
-    }  
-}
-
-@media screen and (min-width:768px) {
   .plagheadingforphone{
-      visibility: hidden;
+    display: none;
+  } 
+}
+
+@media screen and (max-width:767px) {
+  .homepage-content{
+    margin-left: 2%;
+    margin-top: 30%;
+  }
+  .timer{
+    margin-left: 10%;
+    margin-top: 75%;
+  }
+  .about-content{
+    margin-top: 2%;
+  }
+  #about-content-id{
+    margin-top: 170%;
+  }
+  .content{
+    margin-left: 0%;
+    margin-top: 5%;
+    }
+  .callforpaper-container{
+    margin-top: 150%;
+    margin-left: -2%;
+  }
+  .subguide,.plag{
+        margin:0%
+  }
+  .subguidepara,.plagpara{
+        text-align: center;
+  } 
+  #onecontact,#secondcontact{
+      width: 100%;
+  } 
+  .subguide{
+    margin-top: 15%;
+  }
+  .plagheading{
+    display: none;
+  } 
+  .plagheadingforphone{
+    display: block;
   }
 }
-@media screen and (max-width:650px) {
-  
-}
-
-@media screen and (max-width:580px) {
-  
-}
-
 @media screen and (max-width:450px) {
-  
+  /* .homepage-background{
+    margin-left: 4%;
+  } */
+  .homepage-content{
+    margin-left: 2%;
+    padding: 3%;
+    /* margin-top: 15%; */
+  }
+  .timer{
+    margin-left: -1%;
+    margin-top: 60%;
+  }
+  .homepage-content h2{
+    font-size: medium;
+    padding-top: 5%;
+  }
+  .homepage-content h3{
+    font-size: larger;
+  }
+  /* .about-container{
+    padding-left: 6%;
+  } */
+  .about-content{
+    margin-top: 3%;
+  }
+  #about-content-id{
+    margin-top: 200%;
+  }
+  .content{
+    margin-left: 0%;
+    margin-top: 5%;
+    }
+  .callforpaper-container{
+    margin-top: 700%;
+    margin-left: -2%;
+  }
+  .national-committee-items,.international-committee-items{
+    padding:5%;
+  }
+  .speaker{
+    padding: 5%;
+  }
+  .footer-copyright{
+    padding: 10%;
+  }
 }
-
-@media screen and (max-width:320px) {
-  
-}
-
-
 
 
 @media screen and (min-width:991px) {
