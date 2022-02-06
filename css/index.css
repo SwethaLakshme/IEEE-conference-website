@@ -114,16 +114,16 @@ h1,h2,h3,h4,h5,h6{
   }
   
   .day{
-    background-image: url(/images/TIMER\ 1.png);
+    background-image: url(../images/TIMER\ 1.png);
   }
   .hour{
-    background-image: url(/images/TIMER\ 2.png);
+    background-image: url(../images/TIMER\ 2.png);
   }
   .minute{
-    background-image: url(/images/TIMER\ 333.png);
+    background-image: url(../images/TIMER\ 333.png);
   }
   .seconds{
-    background-image: url(/images/TIMER\ 444.png);
+    background-image: url(../images/TIMER\ 444.png);
   }
   .day,.hour,.minute,.seconds{
     
@@ -254,104 +254,104 @@ h1,h2,h3,h4,h5,h6{
     height: 81px;
   }
   #neuralnetwork-fuzzylogic{
-    background-image: url(/images/Neural\ networks\ and\ fuzzy\ logic\ logo.png);
+    background-image: url(../images/Neural\ networks\ and\ fuzzy\ logic\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
     
   }
   #Internetofthings{
-    background-image: url(/images/Internet\ of\ Things\ logo.png);
+    background-image: url(../images/Internet\ of\ Things\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   
   }
   #greencomputing{
-    background-image: url(/images/Green\ Computing\ logo.png);
+    background-image: url(../images/Green\ Computing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   
   }
   #cloudcomputing{
-    background-image: url(/images/4.Fog\,\ Edge\ and\ Cloud\ Computing\ logo.png);
+    background-image: url(../images/4.Fog\,\ Edge\ and\ Cloud\ Computing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   
   }
   #internetwebapplication{
-    background-image: url(/images/Internet\ &\ Web\ Application\ logo.png);
+    background-image: url(../images/Internet\ &\ Web\ Application\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   
   }
   #cybersecurity{
-    background-image: url(/images/Cyber\ Security\ logo.png);
+    background-image: url(../images/Cyber\ Security\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   
   }
   #blockchain{
-    background-image: url(/images/Block\ Chain\ technologies\ logo.png);
+    background-image: url(../images/Block\ Chain\ technologies\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   
   }
   #informationretrival{
-    background-image: url(/images/8.Information\ Retrieval\ techniques\ logo.png);
+    background-image: url(../images/8.Information\ Retrieval\ techniques\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #Datamining{
-    background-image: url(/images/9.Data\ mining\ and\ Warehousing\ logo.png);
+    background-image: url(../images/9.Data\ mining\ and\ Warehousing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #wearablecomputing{
-    background-image: url(/images/10.Wearable\ Computing\ logo.png);
+    background-image: url(../images/10.Wearable\ Computing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #mobilecomputing{
-    background-image: url(/images/12.Mobile\ Computing\ logo.png);
+    background-image: url(../images/12.Mobile\ Computing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #robotics{
-    background-image: url(/images/13.Robotics\ &\ Automation\ logo.png);
+    background-image: url(../images/13.Robotics\ &\ Automation\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #aiml{
-    background-image: url(/images/14.Artificial\ Intelligence\ &\ Machine\ Learning\ logo.png);
+    background-image: url(../images/14.Artificial\ Intelligence\ &\ Machine\ Learning\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #naturallanguage{
-    background-image: url(/images/15.Natural\ Language\ Processing\ logo.png);
+    background-image: url(../images/15.Natural\ Language\ Processing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #computervision{
-    background-image: url(/images/16.Computer\ Vision\ logo.png);
+    background-image: url(../images/16.Computer\ Vision\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #softcomputing{
-    background-image: url(/images/17.Soft\ Computing\ logo.png);
+    background-image: url(../images/17.Soft\ Computing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #networksecurity{
-    background-image: url(/images/18.Network\ Security\ logo.png);
+    background-image: url(../images/18.Network\ Security\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #wirelessnetworks{
-    background-image: url(/images/19.Wireless\ Networks\ logo.png);
+    background-image: url(../images/19.Wireless\ Networks\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
   #digitalsignal{
-    background-image: url(/images/20.Digitial\ Signal\ &\ Image\ Processing\ logo.png);
+    background-image: url(../images/20.Digitial\ Signal\ &\ Image\ Processing\ logo.png);
     background-repeat: no-repeat;
     background-size: contain; 
   }
