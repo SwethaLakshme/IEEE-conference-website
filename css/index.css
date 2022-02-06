@@ -361,14 +361,24 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     margin: 0%;
 }
+.subguide{
+  margin-top: 10%;
+}
 .subguideheading,.plagheading
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: azure;
 }
 .subguidecontent,.plagcontent{
     padding: 0%;
+  background: rgba(255, 255, 255, 0.61);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.9px);
+  -webkit-backdrop-filter: blur(2.9px);
+  border: 5px solid rgba(255, 255, 255, 1);
 }
 #subguidehd{
     text-align: center;
@@ -379,11 +389,23 @@ h1,h2,h3,h4,h5,h6{
 }
 .plagcontent{
     text-align: right;
+    
 }
 .plagheadingforphone{
   display: none;
 } 
 /***************************************************************SPEAKERS**********************************************************************************/
+.speakers{
+  margin-top: 5%;
+  /* background: rgba(0, 0, 0, 0.84);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  border: 1px solid rgba(0, 0, 0, 0.3); */
+}
+.speakerheading{
+  color:black;
+}
 .speakerfirstrow,.speakersecondrow{
     padding: 1%;
 }
@@ -400,11 +422,18 @@ h1,h2,h3,h4,h5,h6{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
+    text-align: center; 
+}
+.speakerdetails{
+  padding: 2%;
+  /* background-color: #d11679; */
+  /* border-radius: 16px; */
+  margin: 2%;
+  /* color: white; */
 }
 /**************************************************************REGISTRATION*********************************************************************************/
 .registration{
-    min-height: 400px;
+    min-height: 700px;
 }
 
 /***************************************************************FOOTER*******************************************************/
@@ -413,14 +442,17 @@ footer{
   background-color: rgb(190, 190, 190);
 }
 /*************************************************************CONTACT US**************************************************************************************/
-.contactcards{
-    margin: 3%;
-}
 .contactcard{
     padding: 2%;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.78);
+    /* border-radius: 50px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: beige;
     max-width: 300px;
     min-height: 300px;
     margin: auto;
@@ -429,6 +461,13 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.card h5,.card p{
+  color: whitesmoke;
+}
+
+.footer-copyright{
+  padding: 1%;
 }
 /***********************************************************Media Queries***********************************************************************************/
 @media screen and (max-width:1400px) {
@@ -485,17 +524,19 @@ footer{
   .callforpaper-container{
     margin-top: 90%;
   }
+  
 }
 
 @media screen and (max-width:992px) {
+  
   #mediumless{
     display: block;
   }
   #largemore{
     display: none;
   }
-  *{
-    font-size: large;
+  .content-heading{
+    margin-top: 5%;
   }
   .timer {
     margin-top: 35%;
@@ -523,6 +564,12 @@ footer{
   .callforpaper-container{
     margin-top: 123%;
   }
+  .speakerdetails h2{
+    font-size: xx-large;
+  }
+  .speakerdetails h3{
+    font-size: x-large;
+  }
 }
 @media screen and (max-width:852px) {
   .callforpaper-container{
@@ -540,6 +587,10 @@ footer{
     height: 132px;
     width: 78%;
   }
+  .plag{
+    margin: 0%;
+  }
+    
 }
 @media screen and (max-width:767px) {
   .homepage-content{
@@ -585,6 +636,8 @@ footer{
   } 
   .plagheadingforphone{
     display: block;
+    background-color: black;
+    color: azure;
   }
 
   .callforpaper-container{
@@ -617,10 +670,14 @@ footer{
     margin-left: 8%;
     margin-top: 60%;
   }
-  }
+}
   
 @media screen and (max-width:450px) {
-  
+  .time {
+    height: 120px;
+    width: 90%;
+    font-size: 2rem;
+  }
   .homepage-content{
     margin-left: 2%;
     padding: 3%;
