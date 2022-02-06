@@ -52,7 +52,7 @@ h1,h2,h3,h4,h5,h6{
     /* position: relative; */
   }
   .homepage-background{
-    background: url(/images/homepage-bg.png);
+    background: url(/images/Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
