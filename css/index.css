@@ -57,7 +57,7 @@ h1,h2,h3,h4,h5,h6{
     background-size: cover;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: inherit;
   }
   .homepage-container .homepage-content h2{
       color: white;
@@ -136,12 +136,15 @@ h1,h2,h3,h4,h5,h6{
     width:100%;
     padding: 10%;
     position: relative;
+    
   }
   #about-content-id{
     margin-top: 50%;
   }
   .about-content{
     margin-top: 10%;
+    background-color: white;
+    border-radius: 20px;
   }
   .content{
     margin-left: 5%;
@@ -221,8 +224,7 @@ h1,h2,h3,h4,h5,h6{
   .callforpaper-container{
     width: 100%;
     position: relative;
-    margin-top: 38%;
-    margin-left: -2%;
+    margin-top: 45%;
   }
   .topicsofinterest-background{
     width: 100%;
@@ -378,6 +380,9 @@ h1,h2,h3,h4,h5,h6{
 .plagcontent{
     text-align: right;
 }
+.plagheadingforphone{
+  display: none;
+} 
 /***************************************************************SPEAKERS**********************************************************************************/
 .speakerfirstrow,.speakersecondrow{
     padding: 1%;
@@ -428,16 +433,22 @@ footer{
 /***********************************************************Media Queries***********************************************************************************/
 @media screen and (max-width:1400px) {
   .timer {
-    margin-top: 30%;
+    margin-top: 22%;
     margin-left: 28%;  
   }
   
   .homepage-content{
-    margin-top: 8%;
+    margin-top: 6%;
     margin-left: 17%; 
   }
-}
+  #about-content-id{
+    margin-top: 60%;
+  }
 
+  .callforpaper-container{
+    margin-top: 55%;
+  }
+}
 @media screen and (max-width:1200px) {
   body{
     font-size: medium;
@@ -445,15 +456,34 @@ footer{
   
   .timer {
     margin-top: 30%;
-    margin-left: 18%;  
+    margin-left: 22%;  
   }
   
   .homepage-content{
     margin-top: 8%;
-    margin-left: 11%; 
+    margin-left: 12%; 
   }
-  .about-content{
-    margin-top: 50%;
+  #about-content-id{
+    margin-top: 80%;
+  }
+  .callforpaper-container{
+    margin-top: 75%;
+  }
+}
+
+@media screen and (max-width:1100px){
+  .timer {
+    margin-top: 30%;
+    margin-left: 20%;  
+  }
+  
+  .homepage-content{
+    margin-top: 8%;
+    margin-left: 7%; 
+  }
+  
+  .callforpaper-container{
+    margin-top: 90%;
   }
 }
 
@@ -464,25 +494,65 @@ footer{
   #largemore{
     display: none;
   }
+  *{
+    font-size: large;
+  }
+  .timer {
+    margin-top: 35%;
+    margin-left: 13%;  
+  }
+  .homepage-content{
+    margin-top: 8%;
+    margin-left: 19%; 
+  }
+  .time {
+    height: 135px;
+    width: 80%;
+  }
+  #about-content-id{
+    margin-top: 90%;
+  }
   .content{
+    margin: 0%;
+    margin-top: 5%;
     text-align: center;
   }
   #about-department-content{
     text-align: center;
   }
-  .plagheadingforphone{
-    display: none;
-  } 
+  .callforpaper-container{
+    margin-top: 123%;
+  }
 }
-
+@media screen and (max-width:852px) {
+  .callforpaper-container{
+    margin-top: 138%;
+  }
+  .timer {
+    margin-top: 40%;
+    margin-left: 10%;  
+  }
+  .homepage-content{
+    margin-top: 8%;
+    margin-left: 14%; 
+  }
+  .time {
+    height: 132px;
+    width: 78%;
+  }
+}
 @media screen and (max-width:767px) {
   .homepage-content{
-    margin-left: 2%;
-    margin-top: 30%;
+    margin-left: 10%;
+    margin-top: 10%;
   }
   .timer{
-    margin-left: 10%;
-    margin-top: 75%;
+    margin-left: 8%;
+    margin-top: 50%;
+  }
+  .time {
+    height: 133px;
+    width: 78%;
   }
   .about-content{
     margin-top: 2%;
@@ -516,19 +586,48 @@ footer{
   .plagheadingforphone{
     display: block;
   }
+
+  .callforpaper-container{
+    margin-top: 240%;
+  }
 }
+@media screen and (max-width:630px) {
+  .homepage-content{
+    margin-left: 5%;
+    margin-top: 10%;
+  }
+  .timer{
+    margin-left: 8%;
+    margin-top: 50%;
+  }
+  .time {
+    height: 120px;
+    width: 80%;
+    font-size: 2rem;
+  }
+  .callforpaper-container{
+    margin-top: 310%;
+  }
+}
+@media screen and (max-width:530px) {
+  .callforpaper-container{
+    margin-top: 400%;
+  }
+  .timer{
+    margin-left: 8%;
+    margin-top: 60%;
+  }
+  }
+  
 @media screen and (max-width:450px) {
-  /* .homepage-background{
-    margin-left: 4%;
-  } */
+  
   .homepage-content{
     margin-left: 2%;
     padding: 3%;
-    /* margin-top: 15%; */
   }
   .timer{
     margin-left: -1%;
-    margin-top: 60%;
+    margin-top: 70%;
   }
   .homepage-content h2{
     font-size: medium;
@@ -537,14 +636,11 @@ footer{
   .homepage-content h3{
     font-size: larger;
   }
-  /* .about-container{
-    padding-left: 6%;
-  } */
   .about-content{
     margin-top: 3%;
   }
   #about-content-id{
-    margin-top: 200%;
+    margin-top: 210%;
   }
   .content{
     margin-left: 0%;
@@ -552,10 +648,13 @@ footer{
     }
   .callforpaper-container{
     margin-top: 700%;
-    margin-left: -2%;
+    
   }
   .national-committee-items,.international-committee-items{
     padding:5%;
+  }
+  .topicsofinterest-list{
+    padding-left: 0%;
   }
   .speaker{
     padding: 5%;
