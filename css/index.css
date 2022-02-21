@@ -448,8 +448,9 @@ h1,h2,h3,h4,h5,h6{
 .speakersecondrow{
     margin-bottom: 2%;
 }
+
 #speakerimage{
-    width: 200px;
+    width: 250px;
     height: 200px;
     border-radius: 50%;
 }
@@ -618,6 +619,7 @@ footer{
   .homepage-content{
     margin-top: 8%;
     padding: 5%; 
+    margin-left: 3%; 
   }
   #about-content-id{
     margin-top: 95%;
