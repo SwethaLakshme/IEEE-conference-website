@@ -137,6 +137,9 @@ h1,h2,h3,h4,h5,h6{
     margin: 0 1rem;
     backdrop-filter: blur(10px);
   }
+  .text{
+    margin-left: 28%;
+  }
   
   .homepage-content{
     position: absolute;
@@ -586,6 +589,9 @@ footer{
   .time {
     height: 135px;
     width: 80%;
+  }
+  .text{
+    margin-left: 10%;
   }
   #about-content-id{
     margin-top: 90%;
