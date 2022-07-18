@@ -186,6 +186,8 @@ h1,h2,h3,h4,h5,h6{
   }
   .content{
     margin-left: 5%;
+  }
+  .content p{
     text-align: justify;
   }
   #about-department-content{
@@ -491,6 +493,11 @@ h1,h2,h3,h4,h5,h6{
   margin: 2%;
   /* color: white; */
 }
+.odd-1{
+  margin-left: 33%;
+  margin-top: 2%;
+  text-align: center;
+}
 /**************************************************************REGISTRATION*********************************************************************************/
 
 .registration-table{
@@ -727,6 +734,10 @@ footer{
 
   .callforpaper-container{
     margin-top: 240%;
+  }
+
+  .odd-1{
+    margin-left: 0%;
   }
 }
 @media screen and (max-width:630px) {
