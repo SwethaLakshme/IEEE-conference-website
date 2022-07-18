@@ -186,9 +186,10 @@ h1,h2,h3,h4,h5,h6{
   }
   .content{
     margin-left: 5%;
+    text-align: justify;
   }
   #about-department-content{
-    text-align: right;
+    text-align: justify;
   }
   .aboutinstimage,.aboutdeptimage,.ICCSTimage{
     width: 100%;
@@ -636,7 +637,7 @@ footer{
   .content{
     margin: 0%;
     margin-top: 5%;
-    text-align: center;
+    text-align: justify;
   }
   #about-department-content{
     text-align: center;
