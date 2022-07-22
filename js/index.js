@@ -1,5 +1,5 @@
  
-const newYear = "28/8/2022";
+const newYear = "8/28/2022";
 
 const daysEl = document.querySelector('.day');
 const hourEl = document.querySelector('.hour');
