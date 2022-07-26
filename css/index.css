@@ -268,7 +268,7 @@ h1,h2,h3,h4,h5,h6{
   .callforpaper-container{
     width: 100%;
     position: relative;
-    margin-top: 45%;
+    margin-top: 55%;
     background-color: #E3E0F3;
   }
   .topicsofinterest-background{
@@ -570,7 +570,7 @@ footer{
   }
 
   .callforpaper-container{
-    margin-top: 55%;
+    margin-top: 65%;
   }
 }
 @media screen and (max-width:1200px) {
@@ -591,7 +591,7 @@ footer{
     margin-top: 80%;
   }
   .callforpaper-container{
-    margin-top: 75%;
+    margin-top: 95%;
   }
 }
 
@@ -607,7 +607,7 @@ footer{
   }
   
   .callforpaper-container{
-    margin-top: 90%;
+    margin-top: 110%;
   }
   
 }
@@ -650,7 +650,7 @@ footer{
     text-align: center;
   }
   .callforpaper-container{
-    margin-top: 123%;
+    margin-top: 150%;
   }
   .speakerdetails h2{
     font-size: xx-large;
@@ -661,7 +661,7 @@ footer{
 }
 @media screen and (max-width:852px) {
   .callforpaper-container{
-    margin-top: 138%;
+    margin-top: 170%;
   }
   .timer {
     margin-top: 60%;
@@ -708,7 +708,7 @@ footer{
     margin-top: 5%;
     }
   .callforpaper-container{
-    margin-top: 150%;
+    margin-top: 180%;
     margin-left: -2%;
   }
   .subguide,.plag{
@@ -733,7 +733,7 @@ footer{
   }
 
   .callforpaper-container{
-    margin-top: 240%;
+    margin-top: 290%;
   }
 
   .odd-1{
@@ -755,12 +755,12 @@ footer{
     font-size: 2rem;
   }
   .callforpaper-container{
-    margin-top: 310%;
+    margin-top: 360%;
   }
 }
 @media screen and (max-width:530px) {
   .callforpaper-container{
-    margin-top: 400%;
+    margin-top: 470%;
   }
   .timer{
     margin-left: 8%;
@@ -803,7 +803,7 @@ footer{
     margin-top: 5%;
     }
   .callforpaper-container{
-    margin-top: 700%;
+    margin-top: 780%;
     
   }
   .national-committee-items,.international-committee-items{
