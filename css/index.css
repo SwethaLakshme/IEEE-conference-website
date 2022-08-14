@@ -32,6 +32,8 @@
 body{
   margin: 0;
   padding: 0;
+  background-image: url('../images/ICCSTBGDESIGN.png');
+  background-size: cover;
   background-color: #FAF8FF;
 }
 /**************************************************************************COMMON FOR DTR, SG, P*****************************************************************/
