@@ -71,13 +71,13 @@ const Advisorycommittee = () => {
     return ( 
         <>
         <div id="committee-side-id" className="committee-container row mt-20" >
-            <div className="switch-btn w-full flex items-center p-3 sm:p-0 justify-center grid grid-cols-1 sm:grid-cols-2  ">
+            <div className="switch-btn w-full items-center p-3 sm:p-0 justify-center grid grid-cols-1 sm:grid-cols-2  ">
                 <button className="btn bg-ourpurple hover:bg-hoverpurple sm:w-8/12 sm:ml-32 md:ml-36 lg:ml-48 xl:ml-60 2xl:ml-70 p-3  rounded-full text-white text-xs sm:text-sm drop-shadow-xl " onClick={btoggle}>INTERNATIONAL ADVISORY COMMITTEE</button>
                 <button className="btn bg-ourpink hover:bg-hoverpink  sm:w-7/12 m-3 p-3 rounded-full text-white text-xs sm:text-sm drop-shadow-xl " onClick={toggle} >NATIONAL ADVISORY COMMITTEE</button>
             </div>
             <div className="committee-container-in mt-10" id="committee-members-id " ref={AC}>
                 <div className="committee-list-container  w-full flex items-center justify-center absolute" id="international-committee" >
-                        <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 flex items-center justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 rounded-3xl p-10">
+                        <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 items-center justify-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 rounded-3xl p-10">
                             {nationaladvisorycommittee.map((committeeMember)=>(
                                 <li className="w-full international-committee-items flex items-center justify-center  p-5">
                                     <p className="text-lg text-center"> 
@@ -90,7 +90,7 @@ const Advisorycommittee = () => {
                  </div>
             
             <div className="committee-list-container  w-full flex items-center justify-center transform-y-180" id="national-committee" >
-                <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 flex items-center justify-center grid grid-cols-1 md:grid-cols-4 rounded-3xl p-10">
+                <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 items-center justify-center grid grid-cols-1 md:grid-cols-4 rounded-3xl p-10">
                     { internationaladvisorycommittee.map((icommitteemember) =>(
                         <li className="w-full international-committee-items flex items-center justify-center  p-5">
                             <p className="text-lg text-center"> 
