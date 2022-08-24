@@ -22,6 +22,7 @@ module.exports = {
         'hoursbackground': "url('images/TIMER 2.png')",
         'minutesbackground': "url('images/TIMER 3.png')",
         'secondsbackground': "url('images/TIMER 4.png')", 
+        'headerbackground' : "url('images/header3.png')"
       },
       // fontFamily: {
         // 'fina-sans':['"Dancing Script"', cursive,...], 

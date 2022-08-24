@@ -6,19 +6,19 @@ const Home = () => {
         <>
           
            
-               <div className="videorunsection w-full h-screen static ">
+               <div id="homeid" className="videorunsection w-full h-screen static ">
 
                <div className="contentsection w-4/5 h-full bg-ourpurple/90 right-0 absolute">  
                     <div className="homecontent text-white w-5/5 h-full top-0 flex justify-center  items-center	relative">
                         <div className="contentalone ">
                             <p className='text-lg sm:text-xl lg:text-2xl'>
-                            <h3 className='text-xl sm:text-2xl lg:text-3xl'> <b> Registration starts on: </b></h3> <br />
+                            <h3 className='text-xl sm:text-2xl lg:text-3xl'> <b> Registration starts on: </b></h3> <br className='hidden sm:block' />
                                 20th August 2022
-                                <br /><br />
-                            <h3 className='text-xl lg:text-3xl'> <b> Registration ends on: </b> </h3> <br />
+                                <br className='hidden sm:block'/><br className='hidden sm:block'/>
+                            <h3 className='text-xl lg:text-3xl'> <b> Registration ends on: </b> </h3> <br className='hidden sm:block'/>
                             1st September 2022                       
                             </p>
-                            <br /><br />
+                            <br className='hidden md:block'/><br />
                             <h3 className='text-xl w-5/5 lg:text-4xl text-center'> <b>Conference starts in </b> </h3> <br />
                             <Timer /> 
                             <br /><br />

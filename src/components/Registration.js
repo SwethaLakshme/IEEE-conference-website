@@ -2,7 +2,7 @@ import React from 'react'
 
 function Registration() {
   return (
-    <div className='w-full'>
+    <div id="register-id" className='w-full'>
         <div>
             <h1 className= 'text-center py-10 sm:text-sm md:text-lg lg:text-lg'><span className='bg-ourpurple text-white font-bold rounded-xl px-8 py-2 text-sm sm:text-sm md:text-lg lg:text-2xl'>REGISTRATION</span></h1>
         </div>

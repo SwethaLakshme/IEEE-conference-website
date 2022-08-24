@@ -3,7 +3,7 @@ import React from 'react'
 function Aboutinst() {
   return (
     <>
-    <div className='mt-10 relative'>
+    <div id="aboutinst"  className='mt-10 relative'>
             <div className='pt-10 grid place-items-center lg:place-items-start lg:pt-20 lg:pl-40'>
                 <div className='text-[16px] sm:text-sm md:text-xl lg:text-2xl w-40 sm:w-40 md:w-48 lg:w-60 p-4 lg:p-8 font-semibold bg-ourpurple'>
                     <h1 className='text-white border-b-4 lg:border-r-8 lg:border-b-0 lg:text-right border-babypink pb-2 pl-2 lg:pr-2'>ABOUT<br></br>

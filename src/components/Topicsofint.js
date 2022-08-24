@@ -26,7 +26,7 @@ import logo23 from "../images/IEEE STANDARDS FOR COMPUTATIONAL SCIENCE.png"
 
 function Topicsofint() {
   return (
-    <>
+    <div id="topics-of-interest-id">
         <div>
             <h1 className= 'text-center py-10'><span className='bg-ourpurple text-white font-bold rounded-xl px-8 py-2 text-sm sm:text-sm md:text-lg lg:text-2xl'>TOPICS OF INTEREST</span></h1>
         </div>
@@ -143,7 +143,7 @@ function Topicsofint() {
                 </div>
             </div>
         </div>
-    </>
+    </div>
   )
 }
 

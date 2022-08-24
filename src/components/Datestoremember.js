@@ -4,7 +4,7 @@ import leftpinimg from '../images/left pin.png';
 const Datestoremember = () => {
     return ( 
         <>
-            <div className="datestoremember w-full h-screen mb-5 flex justify-center items-center">
+            <div id="dates-to-remember-id" className="datestoremember w-full h-screen mb-5 flex justify-center items-center">
             
                 <div className="datestoremembermain w-3/5 h-3/5">
                 <h3 className="text-3xl text-center w-full text-gradpurple hover:text-gradpink -mt-10"><b> Dates To Remember </b></h3>

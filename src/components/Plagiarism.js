@@ -3,7 +3,7 @@ import React from 'react'
 function Plagiarism() {
   return (
     <>
-    <div className=''>
+    <div id="" className=''>
         <div className='pt-10 grid place-items-center lg:place-items-end lg:pt-20 lg:pr-40'>
             <div className='float-right text-[16px] lg:text-2xl sm:text-sm md:text-xl w-44 sm:w-40 md:w-48 lg:w-60 p-4 lg:p-8 font-semibold bg-ourpurple'>
                 <h1 className='text-white border-b-4 lg:border-l-8 lg:border-b-0 border-babypink pb-2 lg:pl-2 font-bold'>PLAGIARISM

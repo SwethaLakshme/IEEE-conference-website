@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="static bottom-0 ">
+    <div id="contact-us" className="static bottom-0 ">
         
       <div className=" mt-10 p-12 bg-cover bg-[url('images/footer2.png')]">
         <span className="w-full">

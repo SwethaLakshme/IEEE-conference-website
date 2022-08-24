@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Head from './components/Head';
 import Home from './components/Home';
+import Navbar from './components/Navbar'
 import Aboutinst from './components/Aboutinst';
 import Aboutdept from './components/Aboutdept';
 import Aboutconf from './components/Aboutconf';
@@ -19,6 +21,8 @@ import Plagiarism from './components/Plagiarism';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Head />
+    <Navbar />
     <Home />
     <Aboutinst/>
     <Aboutdept/>   
