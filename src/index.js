@@ -18,6 +18,7 @@ import Registration from './components/Registration';
 import Footer from './components/Footer';
 import Plagiarism from './components/Plagiarism';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

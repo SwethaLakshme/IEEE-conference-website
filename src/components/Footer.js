@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div id="contact-us" className="static bottom-0 ">
         
-      <div className=" mt-10 p-12 bg-cover bg-[url('images/footer2.png')]">
+      <div className="mt-10 p-12 bg-cover bg-footerbackground">
         <span className="w-full">
           <p className=" text-center text-white font-bold font-roboto-condensed text-xl md:text-2xl lg:text-3xl">
             Contact Us
