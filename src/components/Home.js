@@ -18,8 +18,8 @@ const Home = () => {
                             <h3 className='text-xl lg:text-3xl'> <b> Registration ends on: </b> </h3> <br className='hidden sm:block'/>
                             1st September 2022                       
                             </p>
-                            <br className='hidden md:block'/><br />
-                            <h3 className='text-xl w-5/5 lg:text-4xl text-center'> <b>Conference starts in </b> </h3> <br />
+                            <br className='hidden md:block'/><br className='block md:hidden' />
+                            <h3 className='text-xl w-5/5 lg:text-4xl text-center'> <b>Conference starts in </b> </h3> <br className='block md:hidden'/>
                             <Timer /> 
                             <br /><br />
                         </div>
