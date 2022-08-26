@@ -43,21 +43,19 @@ const Navbar = () => {
     //   }
      
     // }
-    
-
     return(
         <div >
         <div className="w-full bg-white z-10" ref={navbar} >
                     <div className="hidden pb-3 lg:flex lg:justify-center">
-                            <a href="#aboutinst" className="block  lg:mx-3 mt-2 md:mt-4 text-base text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">About</a>
-                            <a href="#committee-side-id" className="block  lg:mx-3 mt-2 md:mt-4 text-base text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Adviosy committee</a>
-                            <a href="#topics-of-interest-id" className="block  lg:mx-3 mt-2 md:mt-4 text-base text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Topics Of Interest</a>
-                            <a href="#dates-to-remember-id" className="block  lg:mx-3 mt-2 md:mt-4 text-base text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Timeline</a>
-                            <a href="#guidelines-id" className="block  lg:mx-3 mt-2 md:mt-4 text-base text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Guidelines</a> 
-                            <a href="#speakerid" className="block  lg:mx-3 mt-2 md:mt-4 text-base text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Speakers</a>
-                            <a href="#contact-us" className="block  lg:mx-3 mt-2 md:mt-4 text-base text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Contact Us</a>
+                            <a href="#aboutinst" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">About</a>
+                            <a href="#committee-side-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Advisory committee</a>
+                            <a href="#topics-of-interest-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Topics Of Interest</a>
+                            <a href="#dates-to-remember-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Timeline</a>
+                            <a href="#guidelines-id" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Guidelines</a> 
+                            <a href="#speakerid" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Speakers</a>
+                            <a href="#contact-us" className="block  lg:mx-3 mt-2 md:mt-4 text-sm lg:text-lg font-semibold text-[#331748]  hover:text-hoverpink">Contact Us</a>
 
-                            <a href="#register-id" ><button className='block px-6 py-1 mx-4 mt-3 md:mt-4 text-base text-sm lg:text-lg drop-shadow-2xl  bg-[#331748] hover:bg-hoverpink  text-white rounded-2xl'>REGISTER</button></a>
+                            <a href="#register-id" ><button className='block px-6 py-1 mx-4 mt-3 md:mt-4 text-sm lg:text-lg drop-shadow-2xl  bg-[#331748] hover:bg-hoverpink  text-white rounded-2xl'>REGISTER</button></a>
                     </div>
         </div>
 
@@ -77,10 +75,10 @@ const Navbar = () => {
             <a href="#register-id" ><button className='justify-items-end px-8 py-1 text-sm  bg-[#331748] hover:bg-blue-700  text-white rounded-2xl'>REGISTER</button></a>
         </div>
         
-        <div className=' fixed  grid justify-items-start w-full  h-screen grid-rows-8 hidden top-0 left-0  bg-white/80 z-20' id="menu"  >
-            <button className="block mx-12 mt-4 text-base font-semibold text-[#331748]  hover:text-hoverpink" onClick={closeburger}> close  </button>
+        <div className=' fixed grid justify-items-start w-full  h-screen grid-rows-8 hidden top-0 left-0  bg-white/80 z-20' id="menu"  >
+            <button className="block mx-12 mt-4 text-base font-semibold text-[#331748]  hover:text-hoverpink" onClick={closeburger}> Close  </button>
             <a href="#aboutinst" onClick={closeburger} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">About</a>
-            <a href="#committee-side-id" onClick={closeburger} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Adviosy committee</a>
+            <a href="#committee-side-id" onClick={closeburger} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Advisory committee</a>
             <a href="#topics-of-interest-id" onClick={closeburger} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Topics Of Interest</a>
             <a href="#dates-to-remember-id" onClick={closeburger} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Timeline</a>
             <a href="#guidelines-id" onClick={closeburger} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Guidelines</a> 

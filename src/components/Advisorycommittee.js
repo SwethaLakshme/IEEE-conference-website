@@ -5,7 +5,6 @@ import Quote from "./Quote";
 const Advisorycommittee = () => {
 
     const AC=useRef();
-
     const toggle = () => {
         AC.current.style.transform = 'rotateY(180deg)';
       }
@@ -88,7 +87,7 @@ const Advisorycommittee = () => {
                                 </li>
                             ))}
                         </ul>
-                        <Quote />
+                    <Quote />
                  </div>
             
             <div className="committee-list-container  w-full flex flex-col items-center justify-center transform-y-180" id="national-committee" >
@@ -96,7 +95,7 @@ const Advisorycommittee = () => {
                     { internationaladvisorycommittee.map((icommitteemember) =>(
                         <li className="w-full international-committee-items flex items-center justify-center  p-5">
                             <p className="text-lg text-center"> 
-                                <b> {icommitteemember.committeeName} <br />  </b>
+                                <b> {icommitteemember.committeeName} <br /></b>
                                 <i> {icommitteemember.committeeDesignation }</i> 
                             </p>
                         </li>
@@ -104,9 +103,9 @@ const Advisorycommittee = () => {
                 </ul>
             </div>
         </div>
-        </div>
+    </div>
     </>
-     );
+    );
 }
  
 export default Advisorycommittee;

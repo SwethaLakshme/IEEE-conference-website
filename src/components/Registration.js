@@ -4,9 +4,9 @@ function Registration() {
   return (
     <div id="register-id" className='w-full'>
         <div>
-            <h1 className= 'text-center py-10 sm:text-sm md:text-lg lg:text-lg'><span className='bg-ourpurple text-white font-bold rounded-xl px-8 py-2 text-sm sm:text-sm md:text-lg lg:text-2xl'>REGISTRATION</span></h1>
+            <h1 className= 'duration-500 scale-100 hover:scale-105 text-center py-10 sm:text-sm md:text-lg lg:text-lg'><span className='bg-ourpurple text-white hover:text-gray-200 font-bold rounded-xl px-8 py-2 text-sm sm:text-sm md:text-lg lg:text-2xl'>REGISTRATION</span></h1>
         </div>
-        <div className='bg-gradient-to-r from-gradpink/20 to-gradpurple/20 rounded-3xl mx-10 p-10 text-xs sm:mx-14 sm:p-14 md:p-10 lg:mx-60 my-2 '>
+        <div className=' bg-gradient-to-r from-gradpink/20 to-gradpurple/20 rounded-3xl mx-10 p-10 text-xs sm:mx-14 sm:p-14 md:p-10 lg:mx-60 my-2 '>
         <div className='w-12/12 flex flex-col justify-center content-center items-center '>
             <div className='flex flex-col justify-center content-center p-4 sm:text-sm sm:px-4 md:text-[16px] md:px-10 lg:p-12 lg:pb-2 lg:text-[16px]'>
                 <div><b>Paper Template Link - </b><a className="underline hover:text-blue-800 " href="https://www.ieee.org/conferences/publishing/templates.html">Click Here</a></div><br/>

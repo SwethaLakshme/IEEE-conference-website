@@ -28,13 +28,13 @@ function Topicsofint() {
   return (
     <div id="topics-of-interest-id">
         <div>
-            <h1 className= 'text-center py-10'><span className='bg-ourpurple text-white font-bold rounded-xl px-8 py-2 text-sm sm:text-sm md:text-lg lg:text-2xl'>TOPICS OF INTEREST</span></h1>
+            <h1 className= 'duration-500 scale-100 hover:scale-105 text-center py-10'><span className='bg-ourpurple text-white font-bold rounded-xl px-8 py-2 text-sm sm:text-sm md:text-lg lg:text-2xl'>TOPICS OF INTEREST</span></h1>
         </div>
         <div className='grid grid-rows gap-4 mx-20 sm:mx-30 md:mx-30 lg:mx-40 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 rounded-3xl content-center'>
-            <div>
-                <h2 className= 'text-center pt-10'><span className='bg-ourpink text-white font-bold rounded-xl px-6 py-2 text-[10px] sm:text-sm md:text-lg lg:text-xl'>COMPUTING TECHNOLOGIES</span></h2>
+            <div className='duration-500 scale-100 hover:scale-105'>
+                <h2 className= 'text-center pt-10'><span className='bg-ourpink text-white hover:text-gray-200 font-bold rounded-xl px-6 py-2 text-[10px] sm:text-sm md:text-lg lg:text-xl'>COMPUTING TECHNOLOGIES</span></h2>
             </div>
-            <div className='grid grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
+            <div className='duration-500 scale-100 hover:scale-105 grid grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
                 <div className='grid place-items-center p-4'>
                     <img className='w-12 sm:w-20 md:w-20 lg:w-20' src= { logo1 }></img>
                     <h3 className='text-center font-bold text-sm sm:text-sm md:text-[15px] lg:text-[16px]'>Internet of Things</h3>
@@ -91,9 +91,9 @@ function Topicsofint() {
         </div>
         <div className='grid grid-rows gap-4 mx-20 sm:mx-30 md:mx-30 lg:mx-40 mt-10 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 rounded-3xl content-center'>
             <div>
-                <h2 className= 'text-center pt-10'><span className='bg-ourpink text-white font-bold rounded-xl px-4 py-2 text-[10px] text-xs sm:text-sm md:text-lg lg:text-xl'>COMMUNICATION TECHNOLOGIES</span></h2>
+                <h2 className= 'duration-500 scale-100 hover:scale-105 text-center pt-10'><span className='bg-ourpink text-white font-bold rounded-xl px-4 py-2 text-[10px] text-xs sm:text-sm md:text-lg lg:text-xl'>COMMUNICATION TECHNOLOGIES</span></h2>
             </div>
-            <div className='grid grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
+            <div className='duration-500 scale-100 hover:scale-105 grid grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
                 <div className='grid place-items-center p-4'>
                     <img className='w-12 sm:w-20 md:w-20 lg:w-20' src= { logo14 }></img>
                     <h3 className='text-center font-bold text-sm sm:text-sm md:text-[15px] lg:text-[16px]'>Cyber Security</h3>
@@ -126,9 +126,9 @@ function Topicsofint() {
         </div>
         <div className='grid grid-rows gap-4 mx-20 sm:mx-30 md:mx-30 lg:mx-40 mt-10 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 rounded-3xl content-center mb-10'>
             <div>
-                <h2 className= 'text-center pt-10'><span className='bg-ourpink text-white font-bold rounded-xl px-8 py-2 text-xs sm:text-sm md:text-lg lg:text-xl   '>GENERAL TOPICS</span></h2>
+                <h2 className= 'duration-500 scale-100 hover:scale-105 text-center pt-10'><span className='bg-ourpink text-white font-bold rounded-xl px-8 py-2 text-xs sm:text-sm md:text-lg lg:text-xl   '>GENERAL TOPICS</span></h2>
             </div>
-            <div className='grid grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
+            <div className='duration-500 scale-100 hover:scale-105 grid grid-cols-1 p-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>
                 <div className='grid place-items-center p-4'>
                     <img className='w-12 sm:w-20 md:w-20 lg:w-20' src= { logo21 }></img>
                     <h3 className='text-center font-bold text-sm sm:text-sm md:text-[15px] lg:text-[16px]'>Pedagogical Framework</h3>

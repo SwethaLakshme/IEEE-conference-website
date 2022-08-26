@@ -4,7 +4,7 @@ function Speakers() {
   return (
     <div id="speakerid">
         <div>
-            <h1 className= 'text-center py-10'><span className='bg-ourpurple text-white font-bold rounded-xl px-8 py-2 text-lg lg:text-2xl'>SPEAKERS</span></h1>
+            <div className='duration-500 scale-100 hover:scale-105'><h1 className= 'text-center py-10'><span className='bg-ourpurple text-white hover:text-gray-200 font-bold rounded-xl px-8 py-2 text-lg lg:text-2xl'>SPEAKERS</span></h1></div>
         </div>
         <div className='grid grid-rows gap-4 mx-20 sm:mx-30 md:mx-40 lg:mx-40 py-10 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 rounded-3xl'>
             <div className='grid grid-cols-1 text-xs sm:grid-cols-2 sm:text-sm md:grid-cols-2 md:text-sm lg:grid-cols-3 lg:text-[16px]'>

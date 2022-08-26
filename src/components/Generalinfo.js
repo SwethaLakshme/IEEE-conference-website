@@ -4,14 +4,14 @@ function Generalinfo() {
   return (
     <>
     <div id="guidelines-id" className='mt-10 relative'>
-            <div className='pt-10 grid place-items-center lg:place-items-start lg:pt-20 lg:pl-40'>
+            <div className='duration-500 scale-100 hover:scale-105 pt-10 grid place-items-center lg:place-items-start lg:pt-20 lg:pl-40'>
                 <div className='text-[16px] sm:text-sm md:text-xl lg:text-2xl w-40 sm:w-40 md:w-48 lg:w-60 p-4 lg:p-6 font-semibold bg-ourpurple'>
                     <h1 className='text-white border-b-4 lg:border-r-8 lg:border-b-0 lg:text-right border-babypink pb-2 lg:pr-2'>GENERAL<br></br>
                     <span className='font-bold'>INFORMATION
                     </span></h1>
                 </div>
             </div>
-            <div className='pl-10 lg:ml-8 lg:-mt-10 lg:pl-80 lg:pr-20'>
+            <div className='duration-500 scale-100 hover:scale-105 pl-10 lg:ml-8 lg:-mt-10 lg:pl-80 lg:pr-20'>
                 <div className='pl-8 py-10 lg:pl-12 lg:py-10 w-11/12 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 rounded-3xl'>
                     <p className='pl-4 pr-8 lg:pr-12 lg:pl-8 border-l-8 border-ourpurple text-justify text-xs sm:text-sm md:text-sm lg:text-[16px] backdrop-blur'>
                     The original unpublished Technical Papers, Articles and Working Papers having maximum length 6 pages on the topics related to the theme of the conference are invited for presentation / publication in the conference proceedings.<br/><br/>
