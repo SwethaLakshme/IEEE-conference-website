@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Reactwebsite-production/static/css/main.d130e6a7.css",
-    "main.js": "/Reactwebsite-production/static/js/main.49f1cb0f.js",
-    "static/media/promo sairam.mp4": "/Reactwebsite-production/static/media/promo sairam.aba991e3ee8c729342f3.mp4",
+    "main.js": "/Reactwebsite-production/static/js/main.0c188706.js",
+    "static/media/promo sairam.mp4": "/Reactwebsite-production/static/media/promo sairam.50392534ffbc2d21cc5f.mp4",
     "static/media/footer2.png": "/Reactwebsite-production/static/media/footer2.23bd197b2590069a64a6.png",
     "static/media/header3.png": "/Reactwebsite-production/static/media/header3.57c9f123851ab4f394f1.png",
     "static/media/AUGMENTED & VIRTUAL REALITY.png": "/Reactwebsite-production/static/media/AUGMENTED & VIRTUAL REALITY.d2ac0baf5a0d44c8843c.png",
@@ -42,10 +42,10 @@
     "static/media/ieeelogo.png": "/Reactwebsite-production/static/media/ieeelogo.1b8977bb4bfa39bb0273.png",
     "index.html": "/Reactwebsite-production/index.html",
     "main.d130e6a7.css.map": "/Reactwebsite-production/static/css/main.d130e6a7.css.map",
-    "main.49f1cb0f.js.map": "/Reactwebsite-production/static/js/main.49f1cb0f.js.map"
+    "main.0c188706.js.map": "/Reactwebsite-production/static/js/main.0c188706.js.map"
   },
   "entrypoints": [
     "static/css/main.d130e6a7.css",
-    "static/js/main.49f1cb0f.js"
+    "static/js/main.0c188706.js"
   ]
 }
