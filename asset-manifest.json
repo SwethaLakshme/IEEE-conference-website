@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f3eeea5.css",
-    "main.js": "/static/js/main.9649e676.js",
+    "main.css": "/static/css/main.b161bdeb.css",
+    "main.js": "/static/js/main.81a44286.js",
     "static/media/promo sairam.mp4": "/static/media/promo sairam.50392534ffbc2d21cc5f.mp4",
     "static/media/footer2.png": "/static/media/footer2.23bd197b2590069a64a6.png",
     "static/media/header3.png": "/static/media/header3.57c9f123851ab4f394f1.png",
@@ -37,15 +37,15 @@
     "static/media/TIMER 2.png": "/static/media/TIMER 2.3582bdf4735aa6f69486.png",
     "static/media/TIMER 4.png": "/static/media/TIMER 4.30bd2933d54adc238e0a.png",
     "static/media/Path6402.png": "/static/media/Path6402.938616d6f483d43b17dd.png",
+    "static/media/ieeelogo.png": "/static/media/ieeelogo.ae163ec504ca9d50c645.png",
     "static/media/iccstlogo.png": "/static/media/iccstlogo.8268f6eecf22a1746702.png",
     "static/media/9.Data mining and Warehousing logo.png": "/static/media/9.Data mining and Warehousing logo.4f69ec10083ee24baa47.png",
-    "static/media/ieeelogo.png": "/static/media/ieeelogo.1b8977bb4bfa39bb0273.png",
     "index.html": "/index.html",
-    "main.1f3eeea5.css.map": "/static/css/main.1f3eeea5.css.map",
-    "main.9649e676.js.map": "/static/js/main.9649e676.js.map"
+    "main.b161bdeb.css.map": "/static/css/main.b161bdeb.css.map",
+    "main.81a44286.js.map": "/static/js/main.81a44286.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f3eeea5.css",
-    "static/js/main.9649e676.js"
+    "static/css/main.b161bdeb.css",
+    "static/js/main.81a44286.js"
   ]
 }
