@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6aff2865.css",
-    "main.js": "/static/js/main.fc862647.js",
+    "main.css": "/static/css/main.1f3eeea5.css",
+    "main.js": "/static/js/main.9649e676.js",
     "static/media/promo sairam.mp4": "/static/media/promo sairam.50392534ffbc2d21cc5f.mp4",
     "static/media/footer2.png": "/static/media/footer2.23bd197b2590069a64a6.png",
     "static/media/header3.png": "/static/media/header3.57c9f123851ab4f394f1.png",
@@ -41,11 +41,11 @@
     "static/media/9.Data mining and Warehousing logo.png": "/static/media/9.Data mining and Warehousing logo.4f69ec10083ee24baa47.png",
     "static/media/ieeelogo.png": "/static/media/ieeelogo.1b8977bb4bfa39bb0273.png",
     "index.html": "/index.html",
-    "main.6aff2865.css.map": "/static/css/main.6aff2865.css.map",
-    "main.fc862647.js.map": "/static/js/main.fc862647.js.map"
+    "main.1f3eeea5.css.map": "/static/css/main.1f3eeea5.css.map",
+    "main.9649e676.js.map": "/static/js/main.9649e676.js.map"
   },
   "entrypoints": [
-    "static/css/main.6aff2865.css",
-    "static/js/main.fc862647.js"
+    "static/css/main.1f3eeea5.css",
+    "static/js/main.9649e676.js"
   ]
 }
