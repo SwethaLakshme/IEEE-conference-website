@@ -13,7 +13,7 @@ function Registration() {
                 <div><b>Paper Submission Link - </b><a className="underline hover:text-blue-800 " href="https://cmt3.research.microsoft.com/ICCST2022">Click Here</a><br/></div><br/>
                 <div><b>Instructions for paper submission - </b><a className="underline hover:text-blue-800 " href="https://cmt3.research.microsoft.com/docs/help/author/author-submission-form.html">Click Here</a></div><br/>
                 <div><b>Instructions for creating an account - </b><a className="underline hover:text-blue-800" href="https://cmt3.research.microsoft.com/docs/help/general/account-creation.html">Click Here</a></div><br/>
-                <div><b>All questions about submissions can be sent as mail to - </b>ieeeiccst2022.cse@sairam.edu.in </div><br/><br/>     
+                <div><b>All questions about submissions can be sent as mail to - </b><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ieeeiccst2022.cse@sairam.edu.in">ieeeiccst2022.cse@sairam.edu.in</a></div><br/><br/>     
             </div>
         </div>
         <div className='w-full flex justify-center items-center'>

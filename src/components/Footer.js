@@ -20,8 +20,8 @@ function Footer() {
               <p className="text-sm md:text-base lg:text-lg text-center font-light"> Associate Professor, CSE</p>
               <p className="text-sm md:text-base lg:text-lg text-center font-light">Sri Sai Ram Engineering College</p>
               <p className="text-sm md:text-base lg:text-lg italic text-center">
-                manimala.cse@sairam.edu.in<br></br>
-                9884675773
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=manimala.cse@sairam.edu.in">manimala.cse@sairam.edu.in</a><br></br>
+              <a href="tel:+919884675773">9884675773</a>
               </p>
             </span>
           </div>
@@ -33,8 +33,8 @@ function Footer() {
               <p className="text-center text-sm md:text-base lg:text-lg font-light">Professor & Head of Department, CSE</p>
               <p className="text-center text-sm md:text-base lg:text-lg font-light">Sri Sai Ram Engineering College</p>
               <p className=" text-sm md:text-base lg:text-lg italic text-center ">
-                hod.cse@sairam.edu.in<br></br>
-                9840428435
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=hod.cse@sairam.edu.in">hod.cse@sairam.edu.in</a><br></br>
+              <a href="tel:+919840428435">9840428435</a>
               </p>
             </span>
           </div>
@@ -46,8 +46,8 @@ function Footer() {
               <p className="flex justify-center text-sm md:text-base lg:text-lg font-light">Associate Professor, CSE</p>
               <p className="text-sm md:text-base lg:text-lgtext-center font-light">Sri Sai Ram Engineering College</p>
               <p className=" text-sm md:text-base lg:text-lg text-center italic">
-                bpriya.cse@sairam.edu.in<br></br>
-                9940137069
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bpriya.cse@sairam.edu.in">bpriya.cse@sairam.edu.in</a><br></br>
+                <a href="tel:+919940137069">9940137069</a>
               </p>
             </span>
           </div>

@@ -58,15 +58,17 @@ const Navbar = () => {
             <a href="#register-id" ><button className='justify-items-end px-8 py-1 text-sm  bg-[#331748] hover:bg-blue-700  text-white rounded-2xl'>REGISTER</button></a>
         </div>
         
-        <div className={isActive?'fixed grid justify-items-start w-full  h-screen grid-rows-8 top-0 left-0  bg-white/80 z-20' :'hidden fixed justify-items-start w-full  h-screen grid-rows-8 top-0 left-0  bg-white/80 z-20'}  name="menu" ref={navlist} >
-            <button onClick={togglenavlist} className="block mx-12 mt-4 text-base font-semibold text-[#331748]  hover:text-hoverpink"> Close  </button>
-            <a href="#aboutinst" onClick={togglenavlist} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">About</a>
-            <a href="#committee-side-id" onClick={togglenavlist} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Advisory committee</a>
-            <a href="#topics-of-interest-id" onClick={togglenavlist} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Topics Of Interest</a>
-            <a href="#dates-to-remember-id" onClick={togglenavlist} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Timeline</a>
-            <a href="#guidelines-id" onClick={togglenavlist} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Guidelines</a> 
-            <a href="#speakerid" onClick={togglenavlist} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Speakers</a>
-            <a href="#contact-us" onClick={togglenavlist} className="block mx-12 mt-4  text-base  font-semibold text-[#331748]  hover:text-hoverpink">Contact Us</a>
+        <div className={isActive?'fixed grid justify-items-start w-full h-screen grid-rows-8 top-0 left-0  bg-gradient-to-r from-gradpink/80 to-gradpurple/100 z-20' :'hidden fixed justify-items-start w-full  h-screen grid-rows-8 top-0 left-0  bg-white/80 z-20'}  name="menu" ref={navlist} >
+        <button onClick={togglenavlist} className="block ml-4 mt-2 p-2 text-base font-semibold"> <svg class="w-6 h-6" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M6 18L18 6M6 6l12 12"></path></svg></button>
+          <div className="w-full grid place-items-center pt-20 pb-80">
+            <a href="#aboutinst" onClick={togglenavlist} className="block mx-12 mt-4  text-lg  font-semibold  text-white py-2 px-4 hover:text-hoverpink">About</a>
+            <a href="#committee-side-id" onClick={togglenavlist} className="block mx-12 mt-4  text-lg  font-semibold   text-white py-2 px-4 hover:text-hoverpink">Advisory committee</a>
+            <a href="#topics-of-interest-id" onClick={togglenavlist} className="block mx-12 mt-4  text-lg   font-semibold  text-white py-2 px-4  hover:text-hoverpink">Topics Of Interest</a>
+            <a href="#dates-to-remember-id" onClick={togglenavlist} className="block mx-12 mt-4  text-lg   font-semibold  text-white py-2 px-4  hover:text-hoverpink">Timeline</a>
+            <a href="#guidelines-id" onClick={togglenavlist} className="block mx-12 mt-4  text-lg   font-semibold  text-white py-2 px-4 hover:text-hoverpink">Guidelines</a> 
+            <a href="#speakerid" onClick={togglenavlist} className="block mx-12 mt-4  text-lg   font-semibold  text-white py-2 px-4 hover:text-hoverpink">Speakers</a>
+            <a href="#contact-us" onClick={togglenavlist} className="block mx-12 mt-4  text-lg   font-semibold text-white py-2 px-4  hover:text-hoverpink">Contact Us</a>
+          </div>
         </div>        
         </div>
     )

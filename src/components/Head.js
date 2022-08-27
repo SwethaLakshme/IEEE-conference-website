@@ -23,7 +23,7 @@ function Head() {
           
           <img src={iccstlogo} alt='iccst logo' className="absolute top-0 ml-3 mt-2 h-14 w-13 sm:h-16 sm:w-14 lg:h-20 lg:w-16 "></img> 
           <div className='flex w-full '>
-            <img src={ieeelogo} alt='ieee logo' className=" absolute top-5 md:top-2 right-3 h-7 w-16 sm:h-10 sm:w-20 lg:w-24 lg:h-12  "></img>
+          <a href='https://www.ieee.org/'><img src={ieeelogo} alt='ieee logo' className=" absolute top-5 md:top-2 right-3 h-7 w-16 sm:h-10 sm:w-20 lg:w-24 lg:h-12"></img></a>
           </div>
         
             <div className=" p-10 pt-20 justify-center h-full w-full ">
