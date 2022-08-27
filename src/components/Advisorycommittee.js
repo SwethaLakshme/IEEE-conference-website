@@ -80,7 +80,7 @@ const Advisorycommittee = () => {
                         <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 items-center justify-center grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 rounded-3xl p-10">
                             {nationaladvisorycommittee.map((committeeMember)=>(
                                 <li className="w-full international-committee-items flex items-center justify-center  p-5">
-                                    <p className="text-lg text-center"> 
+                                    <p className="text-sm sm:text-lg text-center"> 
                                         <b>  {committeeMember.committeeName} <br /></b>
                                         <i>  {committeeMember.committeeDesignation} </i> 
                                     </p>
@@ -94,7 +94,7 @@ const Advisorycommittee = () => {
                 <ul className="international-committee-list w-4/5 bg-gradient-to-r from-gradpink/20 to-gradpurple/20 items-center justify-center grid grid-cols-1 md:grid-cols-4 rounded-3xl p-10">
                     { internationaladvisorycommittee.map((icommitteemember) =>(
                         <li className="w-full international-committee-items flex items-center justify-center  p-5">
-                            <p className="text-lg text-center"> 
+                            <p className="text-sm sm:text-lg text-center"> 
                                 <b> {icommitteemember.committeeName} <br /></b>
                                 <i> {icommitteemember.committeeDesignation }</i> 
                             </p>
