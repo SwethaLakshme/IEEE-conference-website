@@ -47,7 +47,7 @@ function Footer() {
               <p className="text-sm md:text-base lg:text-lgtext-center font-light">Sri Sai Ram Engineering College</p>
               <p className=" text-sm md:text-base lg:text-lg text-center italic">
                 bpriya.cse@sairam.edu.in<br></br>
-                9940137065
+                9940137069
               </p>
             </span>
           </div>
