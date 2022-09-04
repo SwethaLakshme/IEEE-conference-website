@@ -38,10 +38,10 @@ function Registration() {
                     <tbody>
                         <tr className='bg-tablepurple'>
                             <td className='p-4 text-center'>Research Scholar/UG/PG</td>
-                            <td className='p-4 text-center'>₹ 5000</td>
-                            <td className='p-4 text-center'>$100</td>
-                            <td className='p-4 text-center'>₹ 6000</td>
-                            <td className='p-4 text-center'>$125</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 5000</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$100</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 6000</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$125</td>
                         </tr>
                         <tr className='bg-tablepink'>
                             <td className='p-4 text-center'>Academician</td>
