@@ -45,24 +45,24 @@ function Registration() {
                         </tr>
                         <tr className='bg-tablepink'>
                             <td className='p-4 text-center'>Academician</td>
-                            <td className='p-4 text-center'>₹ 6000</td>
-                            <td className='p-4 text-center'>$125</td>
-                            <td className='p-4 text-center'>₹ 7000</td>
-                            <td className='p-4 text-center'>$150</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 6000</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$125</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 7000</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$150</td>
                         </tr>
                         <tr className='bg-tablepurple'>
                             <td className='p-4 text-center'>Industry/R&D</td>
-                            <td className='p-4 text-center'>₹ 7000</td>
-                            <td className='p-4 text-center'>$150</td>
-                            <td className='p-4 text-center'>₹ 8000</td>
-                            <td className='p-4 text-center'>$175</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 7000</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$150</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 8000</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$175</td>
                         </tr>
                         <tr className='bg-tablepink'>
                             <td className='p-4 text-center'>Listener with certificate</td>
-                            <td className='p-4 text-center'>₹ 1500</td>
-                            <td className='p-4 text-center'>$50</td>
-                            <td className='p-4 text-center'>₹ 2000</td>
-                            <td className='p-4 text-center'>$75</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 1500</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$50</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>₹ 2000</td>
+                            <td className='p-4 text-center text-[10px] sm:text-sm md:text-sm lg:text-[16px]'>$75</td>
                         </tr>
                     </tbody>
                 </table>
