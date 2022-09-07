@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ebd0ed2.css",
-    "main.js": "/static/js/main.44e4f259.js",
+    "main.css": "/static/css/main.e7a064dd.css",
+    "main.js": "/static/js/main.58d605b7.js",
     "static/media/promo sairam.mp4": "/static/media/promo sairam.50392534ffbc2d21cc5f.mp4",
     "static/media/footer2.png": "/static/media/footer2.23bd197b2590069a64a6.png",
     "static/media/header3.png": "/static/media/header3.57c9f123851ab4f394f1.png",
@@ -41,11 +41,11 @@
     "static/media/iccstlogo.png": "/static/media/iccstlogo.8268f6eecf22a1746702.png",
     "static/media/9.Data mining and Warehousing logo.png": "/static/media/9.Data mining and Warehousing logo.4f69ec10083ee24baa47.png",
     "index.html": "/index.html",
-    "main.5ebd0ed2.css.map": "/static/css/main.5ebd0ed2.css.map",
-    "main.44e4f259.js.map": "/static/js/main.44e4f259.js.map"
+    "main.e7a064dd.css.map": "/static/css/main.e7a064dd.css.map",
+    "main.58d605b7.js.map": "/static/js/main.58d605b7.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ebd0ed2.css",
-    "static/js/main.44e4f259.js"
+    "static/css/main.e7a064dd.css",
+    "static/js/main.58d605b7.js"
   ]
 }
